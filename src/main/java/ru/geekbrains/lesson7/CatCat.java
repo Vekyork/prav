@@ -1,9 +1,9 @@
 package ru.geekbrains.lesson7;
 
 public class CatCat {
-    private String name;
-    private static int run;
-    private static int jump;
+    public String name;
+    public static int run;
+    public static int jump;
 
     //    String name = "SomeCat";
 ////    void run(int length);

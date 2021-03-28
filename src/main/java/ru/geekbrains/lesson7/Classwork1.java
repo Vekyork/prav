@@ -18,32 +18,32 @@ public class Classwork1 {
         Robot AI = new Robot("Mr. AI", 500, 5) {
         };
 
-        System.out.println("CatCat running and jumping\n" + new CatCat());
+        System.out.println("CatCat running and jumping\n" + args.toString());
         System.out.println("Human running and jumping\n" + new Human());
         System.out.println("Robot running and jumping\n" + new Robot());
 
 //        for (CatCat) {
-//            CatCat.run(Dorojka(100));
+//            CatCat.run(Road());
 //        }
 //        for (CatCat) {
 //            CatCat.jump.(Wall);
 //        }
 //        for (Human) {
-//            Human.run(Dorojka);
+//            Human.run(Road);
 //        }
 //        for (Human) {
 //            Human.jump(Wall);
 //        }
 //        for (Robot) {
-//            Robot.run(Dorojka);
+//            Robot.run(Road);
 //        }
 //        for (Robot) {
 //            Robot.jump(Wall);
 //        }
 
-        System.out.println("CatCat running in the Dorojka and jumping on the Wall\n" + new CatCat());
-        System.out.println("Human running in the Dorojka and jumping on the Wall\n" + new Human());
-        System.out.println("Robot running in the Dorojka and jumping on the Wall\n" + new Robot());
+        System.out.println("CatCat running in the Road and jumping on the Wall\n" + new CatCat());
+        System.out.println("Human running in the Road and jumping on the Wall\n" + new Human());
+        System.out.println("Robot running in the Road and jumping on the Wall\n" + new Robot());
 
         class participation {
             Participate[] participations = {
@@ -51,8 +51,11 @@ public class Classwork1 {
                     new Participate("234", 150, 2),
                     new Participate("345", 200, 3),
             };
+//        for (CatCat) {
+//        CatCat.run(Road());
         }
         System.out.println("participations: " + Participate);
+        System.out.println("args = " + new CatCat());
     }
 }
 
