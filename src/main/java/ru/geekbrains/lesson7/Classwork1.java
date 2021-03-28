@@ -20,7 +20,7 @@ public class Classwork1 {
 
         System.out.println("CatCat running and jumping\n" + new CatCat());
         System.out.println("Human running and jumping\n" + new Human());
-        System.out.println("Robot running and jumping\n" + new Robot());
+        System.out.println("Robot running and jumping\n" + new Robot() + 4);
 
 //        for (CatCat) {
 //            CatCat.run(Dorojka(100));
